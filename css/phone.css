@@ -1,0 +1,40 @@
+
+/* Section */
+#section-content{
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+}
+
+#section-content .img-desktop{
+    display: none;
+}
+
+#section-content .img-mobile{
+    display: block;
+    height: 60%;    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+/*Content*/
+.content p{  
+    width: 250px;
+}
+.content h1{  
+    width: 290px;
+    font-size: 2.1rem;
+}
+.content h3{  
+    font-size: 0.89rem;
+
+}
+.content h2{  
+    font-size: 2rem;
+}
+
+.btn{
+    width: 292px;
+    height: 43px;
+}
