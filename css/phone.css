@@ -5,18 +5,15 @@
     width: 350px;
     height: 600px;
 }
-
-#section-content .img-desktop{
-    display: none;
+picture{
+    width: auto;
 }
-
-#section-content .img-mobile{
-    display: block;
-    height: 60%;    
+#section-content img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
+    border-bottom-left-radius:0px ;
 }
+
 
 /*Content*/
 .content p{  

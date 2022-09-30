@@ -22,15 +22,25 @@ body{
     border-radius: 10px;
     margin: 20px 20px;
 }
-
-#section-content .img-desktop{
-    width: 500px;
+picture{
+    width: 50%;
+}
+#section-content img{
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+
+}
+/* #section-content .img-desktop{
+
+    width: 500px;
 }
 #section-content .img-mobile{
     display: none;
-}
+} */
 
 .content{
 
